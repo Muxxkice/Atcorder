@@ -14,3 +14,12 @@ int main() {
   }
   cout << "No" << endl;
 }
+
+#include <iostream>
+using namespace std;
+int main(void){
+    int price,a;
+    cin >> price >> a;
+
+    cout << ( price % 500 <= a ? "Yes" : "No" )<< endl;
+}
